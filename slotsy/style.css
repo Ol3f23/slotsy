@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.machine {
+    width: 600px;
+    height: 600px;
+    background-color: #555;
+    border: 3px solid yellow;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 
+    0px 0px 4px yellow,
+    0px 0px 8px yellow,
+    0px 0px 12px yellow,
+    0px 0px 150px yellow;
+}
+
+h1 {
+    margin: 72.5px;
+    color: orange;
+    font-weight: bold;
+    font-size: 300%;
+    text-shadow: 
+    0 0 5px orange,
+    0 0 30px orange;
+}
+
+.slotsy{
+    margin: 22.5px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.slot {
+    border-collapse: collapse;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    box-shadow: 
+    inset 0px 0px 6px black,
+    0px 0px 6px black,
+    0px 0px 9px black,
+    0px 0px 8px black,
+    inset 0px 0px 15px black,
+    0px 0px 15px black;
+}
+
+button {
+    margin: 75px;
+    width: 200px;
+    height: 50px;
+    background-color: #333;
+    font-size: 120%;
+    cursor: pointer;
+    color: orange;
+    border-radius: 5px;
+    border: 3px solid orange;
+    box-shadow: 
+    0px 0px 4px orange,
+    0px 0px 30px orange,
+    inset 0px 0px 4px orange,
+    inset 0px 0px 15px orange;
+}
+
+h2 {
+    margin: 0px;
+    text-shadow: 
+    0 0 5px orange,
+    0 0 30px orange;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
